@@ -13,6 +13,8 @@ The project focuses on using LUNA16 dataset-based CT images to train models for 
    LUNA16 CT 데이터를 학습에 적합하도록 전처리
 2. Training and fine-tuning a TensorFlow-based 3D convolutional neural network (CNN).
    TensorFlow 기반의 3D CNN 모델 학습 및 튜닝
+3. Preparing data for Unity integration and verifying predictions in the simulation environment.
+   Unity 통합을 위한 데이터 준비 및 시뮬레이션 환경에서 예측 결과 검증
 
 ## Notes
 This repository includes only my contributions. Full project implementation, including PACS/DICOM integration and Unity scripting, is not included here.  
