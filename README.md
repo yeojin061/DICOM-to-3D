@@ -25,13 +25,13 @@ Due to data dependency issues, the code is not executable as is.
 # Project Structure
 
 ## Folder Structure
-- /data_preprocessing/preprocess_data.py: Code for loading and preprocessing LUNA16 CT scan data.  
+- data_preprocessing/preprocess_data.py: Code for loading and preprocessing LUNA16 CT scan data.  
   LUNA16 CT 스캔 데이터를 로드하고 전처리하는 코드를 포함합니다.
-- /model/model_definition.py: Code for defining the TensorFlow-based 3D CNN model.  
+- model/model_definition.py: Code for defining the TensorFlow-based 3D CNN model.  
   TensorFlow 기반 3D CNN 모델을 정의하는 코드를 포함합니다.
-- /model/model_training.py: Code for training the 3D CNN model.  
+- model/model_training.py: Code for training the 3D CNN model.  
   3D CNN 모델을 학습시키는 코드를 포함합니다.
-- /evaluation/evaluate_model.py: Code for evaluating the trained model.  
+- evaluation/evaluate_model.py: Code for evaluating the trained model.  
   학습된 모델을 평가하는 코드를 포함합니다.
 
 ## How to Use
